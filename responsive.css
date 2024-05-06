@@ -1,0 +1,31 @@
+@media screen and (max-width: 500px) {
+    .Logo {
+        width: 65px !important;
+        margin-left: 35px !important;
+    }
+
+
+    .responsiveDis {
+      display: flex !important;
+    }
+    .logoDiv {
+      display: none !important;
+    }
+  
+    .logoImg span {
+      font-size: 22px;
+      color: rgb(236, 236, 236) !important;
+      font-weight: 400 !important;
+    }
+   
+  }
+  
+
+  @media screen and (max-width: 1224px) {
+    .logoDiv {
+        display: none !important;
+      }
+      .responsiveDis {
+        display: flex !important;
+      }
+  }

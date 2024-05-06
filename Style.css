@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.Logo {
+  width: 82px;
+}
+
+.navImg {
+  background-image: url(/Frontend/Assests/Second.jpg);
+  background-position: right center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.text {
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+}
+
+.responsive {
+  justify-content: center;
+  width: 97vw;
+  align-items: center;
+  background-color: rgba(51, 126, 163, 0.292) !important;
+  border-radius: 10%;
+  /* margin-left: 2px; */
+}
+.responsiveDis {
+  display: none;
+}
+
+.logoImg img {
+  margin-left: 13px;
+}
+.logoImg span {
+  font-weight: bold;
+  color: white;
+}
+
+.responsive li a {
+  font-weight: 800;
+  color: white;
+}
+
+.images {
+  width: 10rem;
+}
+
+.option {
+  height: 8rem;
+  background-color: rgb(165, 73, 73);
+  width: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.help{
+  height: 70vh;
+}
+
+.shadow-xl img{
+  height: 10rem;
+  width: 10rem;
+  border-radius: 10%;
+}
+
+
+/* About Pages */
